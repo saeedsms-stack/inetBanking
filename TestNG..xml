@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="inetBanking">
+	<test name="Banking App test">
+		<parameter name="browser" value="mozilla"/>
+		<classes>
+		<class name="com.inetBanking.testCases.TestCase1"></class>	
+		</classes>
+	</test>
+</suite>
